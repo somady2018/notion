@@ -58,12 +58,11 @@
 <body>
 
 	<nav class="navMenu  border">
-		<a id="home" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-house"></i> Home</a>
-		<a id="gallery" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-inbox"></i> Inbox</a>
-		<a id="slider" onclick="navigate(this.id)" href="#"> <i class="fa-light fa-calendar-check"></i> Planner</a>
-		<a id="projects" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-briefcase"></i> Projects</a>
-		<a id="tasks" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-list-check"></i> Tasks</a>
-		<a id="business" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-money-bill-wave"></i> Business</a>
+		<a id="home" onclick="navigate(this.id)" href="#"> <i class="fa-duotone fa-house"></i> BLOG </a>
+		<a id="gallery" onclick="navigate(this.id)" href="#"> <i class="fa-duotone fa-image"></i> gallery </a>
+		<a id="slider" onclick="navigate(this.id)" href="#"> <i class="fa-duotone fa-film"></i> Slider_gallery</a>
+		<a id="Git" onclick="navigate(this.id)" href="#"> <i class="fa-duotone fa-code"></i> Git</a>
+		<a id="tasks" onclick="navigate(this.id)" href="#"> <i class="fa-duotone fa-business-time"></i> Tasks</a>
 
 
 
@@ -73,7 +72,7 @@
 
 	<script>
 
-		let direction = "horizontal";
+		let direction = "Vertical";
 		if (direction === "vertical") {
 			document.head.insertAdjacentHTML("beforeend", `<style>.navMenu a {display: block; text-align:left; margin:7px} i{width:15px; margin-right:5px} .navMenu{margin:3px}</style>`)
 		}
@@ -87,12 +86,11 @@
 				window.open("https://somady2018.github.io/notion/gallery.html", '_blank').focus();
 			else if (id == "slider")
 				window.open("https://somady2018.github.io/notion/slider.html", '_blank').focus();
-			else if (id == "month")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "projects")
-				window.open("https://example.com", '_blank').focus();
-			else if (id == "business")
-				window.open("https://example.com", '_blank').focus();
+			else if (id == "Git")
+				window.open("https://github.com/somady2018/somady2018.github.io", '_blank').focus();
+			else if (id == "tasks")
+				window.open("https://www.notion.so/lmj8922/_DASH-BOARD-885ffecd2e7543e9bcb95ff430c13a66", '_blank').focus();
+
 			
 
 		}
