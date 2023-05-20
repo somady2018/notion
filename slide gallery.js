@@ -20,7 +20,7 @@ function MySliderBox1__init() {
           img = '<img src="/img/3.jpg">';
         }
         else if ( index == 3 ) {
-          img = '<img src="/img/4.jpg0">';
+          img = '<img src="/img/4.jpg">';
         }
         else if ( index == 4 ) {
           img = '<img src="/img/5.jpg">';
